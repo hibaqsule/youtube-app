@@ -240,5 +240,14 @@ main {
 .content .container .video-bottom:last-child {
     cursor: pointer;
 }
+ @media only screen  and ( max-width: 768px) {
+    .sidebar, .search, .more img {
+        display: none;
+    }
+    .more .profile {
+        display: block;
+    }
+}
+
 
 
