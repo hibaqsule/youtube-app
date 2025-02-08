@@ -12,6 +12,25 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
 }
+.tags{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    width:80;
+}
+.tags span{
+    font-size: 12px;
+    font-weight: bold;
+    border-radius:5px;
+    width: fit-content;
+    background-color: red;
+    text-align: center;
+    
+
+}
 
 .logo {
     display: flex;
