@@ -24,12 +24,16 @@ body {
 .tags span{
     font-size: 12px;
     font-weight: bold;
-    border-radius:20px;
+    border-radius:10px;
     width: fit-content;
     background-color: #f8f8f8;
     text-align: center;
-    padding:7px;
+    padding:10px;
    
+}
+.tags span:hover{
+    background-color: #1f1f1f;
+    color:white;
 }
 
 .logo {
