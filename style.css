@@ -16,20 +16,20 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    border: 1px solid #ccc;
     padding: 5px;
     cursor: pointer;
-    width:80;
+    width:80%;
+    justify-content: space-around;
 }
 .tags span{
     font-size: 12px;
     font-weight: bold;
-    border-radius:5px;
+    border-radius:20px;
     width: fit-content;
-    background-color: red;
+    background-color: #f8f8f8;
     text-align: center;
-    
-
+    padding:7px;
+   
 }
 
 .logo {
@@ -155,14 +155,15 @@ main {
 .main{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .content {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 10px;
     padding: 10px;
-    flex-grow: 1;
+   
 }
 
 .content .container {
